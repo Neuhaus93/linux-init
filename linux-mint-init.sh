@@ -6,6 +6,12 @@ sudo apt update && sudo apt upgrade -y
 # Base
 sudo apt install curl git git-all unzip
 
+# C Compiler
+sudo apt install gcc
+
+# Telescope.nvim requirements
+sudo apt install ripgrep fd-find
+
 # Apt repositories
 sudo apt install zsh flameshot neovim python3-neovim httpie tmux htop
 
@@ -29,6 +35,10 @@ rm ./dbeaver-ce_latest_amd64.deb
 
 # Manually installations
 #
+# - [ ] One Nerd Font: https://www.nerdfonts.com/font-downloads
+#   - Preferences: MesloLG, JetBrainsMono
+# - [ ] Powerlevel 10k: https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
+# - [ ] A good color scheme: https://gogh-co.github.io/Gogh/
 # - [ ] Slack: https://slack.com/intl/pt-br/downloads/linux
 # - [ ] VSCode: https://code.visualstudio.com/download#
 # - [ ] ASDF: https://asdf-vm.com/guide/getting-started.html
@@ -36,6 +46,7 @@ rm ./dbeaver-ce_latest_amd64.deb
 #     - [ ] Install Bun after installing nodejs: https://bun.sh/docs/installation#macos-and-linux
 #   - [ ] PNPM
 # - [ ] VLC: https://community.linuxmint.com/software/view/vlc
+# - [ ] Lazygit: https://github.com/jesseduffield/lazygit?tab=readme-ov-file#ubuntu
 
 # Optionals
-# - [ ] HTTPie
+# - [ ] HTTPie Desktop
