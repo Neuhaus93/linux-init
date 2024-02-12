@@ -4,16 +4,16 @@
 sudo apt update && sudo apt upgrade -y
 
 # Base
-sudo apt install curl git git-all unzip
+sudo apt install curl git git-all unzip -y
 
 # C Compiler
-sudo apt install gcc
+sudo apt install gcc -y
 
 # Telescope.nvim requirements
-sudo apt install ripgrep fd-find
+sudo apt install ripgrep fd-find -y
 
 # Apt repositories
-sudo apt install zsh flameshot neovim python3-neovim httpie tmux htop
+sudo apt install zsh flameshot neovim python3-neovim httpie tmux htop -y
 
 # Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -33,12 +33,19 @@ wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
 sudo apt install ./dbeaver-ce_latest_amd64.deb
 rm ./dbeaver-ce_latest_amd64.deb
 
+# Docker
+# Follow the instructions on: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+
 # Manually installations
 #
 # - [ ] One Nerd Font: https://www.nerdfonts.com/font-downloads
 #   - Preferences: MesloLG, JetBrainsMono
 # - [ ] Powerlevel 10k: https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
 # - [ ] A good color scheme: https://gogh-co.github.io/Gogh/
+# - [ ] ZSH Plugins
+#   - [ ] zsh-autosuggestion
+#   - [ ] zsh-syntax-highlighting
+#   - [ ] asdf
 # - [ ] Slack: https://slack.com/intl/pt-br/downloads/linux
 # - [ ] VSCode: https://code.visualstudio.com/download#
 # - [ ] ASDF: https://asdf-vm.com/guide/getting-started.html
